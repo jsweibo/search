@@ -1,0 +1,38 @@
+{
+  "name": "search",
+  "version": "1.0.0",
+  "description": "jsweibo's search",
+  "private": true,
+  "scripts": {
+    "build": "gulp",
+    "build.gh-pages": "gulp buildForPages",
+    "lint": "eslint src",
+    "prettier": "prettier --write src",
+    "test": "npm run build && node live-server.test.js",
+    "test.gh-pages": "npm run build.gh-pages && node live-server.test.gh-pages.js",
+    "dev": "gulp dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/jsweibo/search.git"
+  },
+  "keywords": [
+    "search"
+  ],
+  "author": "jsweibo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jsweibo/search/issues"
+  },
+  "homepage": "https://github.com/jsweibo/search#readme",
+  "devDependencies": {
+    "browser-sync": "^2.27.7",
+    "delete": "^1.1.0",
+    "eslint": "^8.10.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "gulp": "^4.0.2",
+    "live-server": "^1.2.1",
+    "prettier": "^2.5.1"
+  }
+}
