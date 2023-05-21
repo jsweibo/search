@@ -1,0 +1,8 @@
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
+  <ShortName>jsweibo's search</ShortName>
+  <Description>jsweibo's search</Description>
+  <Image height="16" width="16" type="image/png">https://jsweibo.github.io/search/favicon.png</Image>
+  <InputEncoding>UTF-8</InputEncoding>
+  <Url type="text/html" template="https://jsweibo.github.io/search/?q={searchTerms}" />
+  <Url type="application/x-suggestions+json" template="https://suggestion.baidu.com/su?action=opensearch&amp;wd={searchTerms}" />
+</OpenSearchDescription>
