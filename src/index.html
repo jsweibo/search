@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="renderer" content="webkit" />
+    <meta name="referrer" content="no-referrer" />
+    <meta name="theme-color" content="#07c160" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no"
+    />
+    <link rel="icon" href="favicon.png" />
+    <link rel="manifest" href="manifest.json" />
+    <link rel="stylesheet" href="css/root.css" />
+    <link rel="stylesheet" href="css/index.css" />
+    <link
+      rel="search"
+      type="application/opensearchdescription+xml"
+      title="jsweibo's search"
+      href="opensearch.xml"
+    />
+    <script defer src="js/rem.js"></script>
+    <script defer src="js/root.js"></script>
+    <script defer src="js/default-settings.js"></script>
+    <script defer src="js/index.js"></script>
+    <title>jsweibo's search</title>
+  </head>
+  <body>
+    <div id="root">
+      <div class="hint-field">
+        <div class="mask"></div>
+        <div class="hint"></div>
+      </div>
+      <div class="container">
+        <form>
+          <div class="form-field">
+            <div class="title">Keywords</div>
+            <div class="value-field input-field">
+              <input type="search" name="q" id="q" required />
+              <button type="button">C</button>
+            </div>
+          </div>
+          <div class="btns-field">
+            <button type="submit">Search</button>
+            <button type="button" id="open-options">Open Options</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
